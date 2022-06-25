@@ -30,7 +30,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem 0 3rem;
+    padding: 2rem 6rem 0 3rem;
     max-width: 1300px;
     margin: 0 auto;
     width: 100%;
@@ -41,8 +41,8 @@ body{
 .nav-logo{
     display: flex;
     align-items: flex-end;
-    color: var(--white);
-    letter-spacing: 1.5px;
+    color: var(--primary-color);
+    letter-spacing: 2px;
     font-size: 1.5rem;
 }
 
@@ -59,7 +59,7 @@ body{
 }
 
 .nav-link{
-    margin-top: 2.25rem;
+    margin-bottom: 12px;
 }
 
 .nav-title{
@@ -67,7 +67,7 @@ body{
     outline: none;
     color: var(--white);
     border-bottom: 3px solid var(--white);
-    padding: 0 5px 0.25rem 5px;
+    padding: 0 5px 0.5rem 5px;
 }
 
 .nav-title:hover{
