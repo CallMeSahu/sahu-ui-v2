@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --max: 81.25rems;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.container{
+    display: flex;
+    max-width: var(--max);
+}
+
+.install-text{
+    font-size: 1.15rem;
+    margin: 1rem 0 0 2.5rem;
+    color: var(--main-color);
+    
+}
+
+.install-text:hover{
+    color: var(--white)
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem ;
+}
+
+.logo a{
+    color: var(--main-color);
+    font-size: 1.75rem;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 2px;
+}
+
+.logo-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.logo-text{
+    margin: auto 0.5rem;       
+}
+
+
+.sidebar-wrapper{
+    width: 20rem;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 5;
+    font-size: 1rem;
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(34, 33, 33, 0.35) 2px 5px 15px;
+}
+
+.sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header{
+    border-bottom: 1px solid var(--default);
+    padding: 0.75rem;
+}
+
+.sidebar-main{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.sidebar-main a{
+    color: var(--white);
+    padding: 0.45rem 0.5rem 0.5rem 1.5rem;
+}
+
+.sidebar-main a:hover{
+    background-color: var(--grey)
+}
+
+.icon-bar{
+    left: 0;
+    bottom: 3%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0rem;
+}
+
+.icon-bar a{
+    padding: px;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.icon-bar a:hover{
+    transform: scale(1.5);
+}
