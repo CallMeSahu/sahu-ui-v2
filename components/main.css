@@ -106,3 +106,64 @@
 .icon-bar a:hover{
     transform: scale(1.5);
 }
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    height: 100vh;
+    color: var(--black);
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 0 1rem 4rem;
+}
+
+.section-header p{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.section-main{
+    padding: 1rem 0 2rem 4rem;
+}
+
+.paragraph{
+    padding: 1rem 0;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.middle-text{
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+}
+
+.doc-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.navigation-bar{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+
+.humber-icon{
+    color: var(--main-color);
+}
+
+
