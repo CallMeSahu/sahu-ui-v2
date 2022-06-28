@@ -1,0 +1,39 @@
+.badge-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+
+.badge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bell-badge, .mail-badge, .cart-badge, .avatar-badge{
+    display: inline-block;
+    position: relative;
+}
+
+.notification-icon{
+    position: absolute;
+    height: 1.4rem;
+    min-width: 1rem;
+    top: -10px;
+    left: 54%;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
