@@ -115,6 +115,10 @@
     color: var(--black);
 }
 
+.section-main-text{
+    margin: 1.5rem auto ;
+}
+
 .section-header{
     display: flex;
     justify-content: space-between;
@@ -145,7 +149,7 @@
 .doc-img{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 0 1rem 2rem 0;
 }
 
 .active-page{
