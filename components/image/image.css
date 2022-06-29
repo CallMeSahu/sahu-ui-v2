@@ -1,0 +1,19 @@
+.image-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+}
+
+.image-responsive{
+    width: 20rem;
+    height: auto;
+    border-radius: 0;
+}
+
+.image-rounded{
+    border-radius: 50%;
+    width: 13rem;
+}    
