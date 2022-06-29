@@ -1,0 +1,35 @@
+.input-container{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.input{
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--black);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+input:hover{
+    border-color: var(--main-color);
+}
+
+.input-radio, .input-checkbox{
+    cursor: pointer;
+    accent-color: var(--darkBlue);
+    height: 15px;
+    width: 15px;
+
+}
+
+.radio-checkbox-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
