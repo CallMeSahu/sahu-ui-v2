@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <title>Button | Sahu UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../component.css">    
+    <link rel="stylesheet" href="input.css">    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar-wrapper trans-off">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img class="logo-img" src="/images/favicon.png" alt="" srcset="">
+                            <h3 class="logo-text">Sahu UI</h3>
+                        </a>
+                    </div>
+                </div>
+                <a href="../main.html" class="install-text">Installation</a>
+                <div class="sidebar-main">
+                    <a href="../alert/alert.html">Alert</a>
+                    <a href="../avatar/avatar.html">Avatar</a>
+                    <a href="../badge/badge.html">Badge</a>
+                    <a href="../button/button.html">Button</a>
+                    <a href="../card/card.html">Card</a>
+                    <a href="../image/image.html">Image</a>
+                    <a href="../input/input.html" class="active-page">Input</a>
+                    <a href="../list/list.html">Lists</a>
+                    <a href="../modal/modal.html">Modal</a>
+                    <a href="../navigation/navigation.html">Navigation</a>
+                    <a href="../rating/rating.html">Rating</a>
+                    <a href="../grid/grid.html">Responsive Grid</a>
+                    <a href="../slider/slider.html">Slider</a>
+                    <a href="../text-utilities/textUtilities.html">Text Utilities</a>
+                    <a href="../toast/toast.html">Toast</a>
+                </div>
+                <div class="icon-bar">
+                    <a href="https://github.com/CallMeSahu" class="github">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/siddhartha-sahu/" class="linkedin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/CallMeSahu" class="twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <div>
+                    <h1>Input</h1>
+                    <p class="paragraph">Inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data to the server, accordingly.</p>
+                </div>
+            </div>
+            
+            <div class="section-main">
+                <div class="section-main-text">
+                    <h2 class="section-main-text-header">Labelled Inputs</h2>
+                    <p class="paragraph">Labbeled Inputs can be used by including the input keyword in the class followed by its varient name. There are 3 varients of labelled inputs available which are TEXT, NUMBER & PASSWORD. Changing the varient name affects the ability to take a particular input type.</p>
+                </div> 
+                
+                <div class="input-container">
+                    <!-- Text Labelled Inputs -->
+                    <input type="text" class="input input-text" placeholder="Enter text here">
+                    <!-- Number Labelled Inputs -->
+                    <input type="number" class="input input-number" placeholder="Enter number here">
+                    <!-- Password Labelled Inputs -->
+                    <input type="password" class="input input-password" placeholder="Enter password here">
+                </div>
+
+                <div class="doc-img">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Labelled%2520Inputs%2520--%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2520input-text%2522%2520placeholder%253D%2522Enter%2520text%2520here%2522%253E%250A%253C%21--%2520Number%2520Labelled%2520Inputs%2520--%253E%250A%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input%2520input-number%2522%2520placeholder%253D%2522Enter%2520number%2520here%2522%253E%250A%253C%21--%2520Password%2520Labelled%2520Inputs%2520--%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2520input-password%2522%2520placeholder%253D%2522Enter%2520password%2520here%2522%253E%2520%250A"
+                    style="width: 100%; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+                <div class="section-main-text">
+                    <h2 class="section-main-text-header">Radio and Checkbox Inputs</h2>
+                    <p class="paragraph">Radio and Checkbox type inputs can be used by including the radio or checkbox keyword in the class. If you want your input to be disabled don't forget to add disabled keyword to your input tag.</p>
+                </div>
+
+                <div class="input-container">
+                    <div class="radio-checkbox-container">
+                        <!-- Radio Input -->
+                        <label>
+                            <input type="radio" name="" id="" class="input-radio">
+                            <span class="text-holder">Sahu UI is awesome!</span>
+                        </label>
+                        <!--Disabled Radio Input -->
+                        <label>
+                            <input type="radio" name="" id="" class="input-radio" disabled>
+                            <span class="text-holder">Sahu UI is awesome!</span>
+                        </label>
+                        <!--Checkbox Input -->
+                        <label>
+                            <input type="checkbox" name="" id="" class="input-checkbox">
+                            <span class="text-holder">Sahu UI is awesome!</span>
+                        </label>
+                        <!--Disabled Checkbox Input -->
+                        <label>
+                            <input type="checkbox" name="" id="" class="input-checkbox" disabled>
+                            <span class="text-holder">Sahu UI is awesome!</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="doc-image">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520Radio%2520Input%2520--%253E%250A%2520%253Clabel%253E%250A%2520%2509%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520class%253D%2522input-radio%2522%253E%250A%2520%2509%253Cspan%2520class%253D%2522text-holder%2522%253ESahu%2520UI%2520is%2520awesome%21%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E%250A%250A%2520%253C%21--Disabled%2520Radio%2520Input%2520--%253E%250A%2520%253Clabel%253E%250A%2520%2509%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520class%253D%2522input-radio%2522%2520disabled%253E%250A%2520%2509%253Cspan%2520class%253D%2522text-holder%2522%253ESahu%2520UI%2520is%2520awesome%21%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E%250A%250A%2520%253C%21--Checkbox%2520Input%2520--%253E%250A%2520%253Clabel%253E%250A%2520%2509%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520class%253D%2522input-checkbox%2522%253E%250A%2520%2509%253Cspan%2520class%253D%2522text-holder%2522%253ESahu%2520UI%2520is%2520awesome%21%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E%250A%250A%2520%253C%21--Disabled%2520Checkbox%2520Input%2520--%253E%250A%2520%253Clabel%253E%250A%2520%2509%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520class%253D%2522input-checkbox%2522%2520disabled%253E%2520%250A%2520%2509%253Cspan%2520class%253D%2522text-holder%2522%253ESahu%2520UI%2520is%2520awesome%21%253C%252Fspan%253E%250A%2520%253C%252Flabel%253E%250A"
+                        style="width: 100%; height:640px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+            </div>           
+        </div>
+
+    </div>
+</body>
+</html>
