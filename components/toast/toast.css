@@ -1,0 +1,33 @@
+.toast-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.toast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    background-color: var(--darkBlue);
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+}
+
+.toast-message{
+   margin-right: 0.75rem;
+   letter-spacing: 1px;
+}
+
+.toast-btn{
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.toast-btn:hover{
+    transform: scale(1.2);
+}
