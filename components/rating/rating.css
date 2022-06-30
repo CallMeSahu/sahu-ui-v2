@@ -1,0 +1,12 @@
+.rating-container{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.star{
+    color: var(--warning);
+    border-color: black;
+}
+
