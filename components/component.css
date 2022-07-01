@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("../components/avatar/avatar.css");
+@import url("../components/button/button.css");
+
 :root{
     --main-color: #0ea5e9;
     --background-color: #111e43;
