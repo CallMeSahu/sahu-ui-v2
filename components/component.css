@@ -2,6 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("../components/avatar/avatar.css");
 @import url("../components/button/button.css");
+@import url("../components/card/card.css");
 
 :root{
     --main-color: #0ea5e9;
