@@ -1,0 +1,25 @@
+.list-container{
+    margin: 2rem;
+}
+
+.list-group{
+    width: 500px;
+    border: 1px solid grey;
+    border-top: none;
+    margin: 0 auto;
+}
+
+.list-item{
+    list-style: none;
+    padding: 1rem 2rem;
+    border-top: 1px solid grey;
+}
+
+.list-item:hover{
+    background-color: var(--lightGrey);
+}
+
+.list-heading{
+    display: flex;
+    justify-content: space-between;
+}
