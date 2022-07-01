@@ -1,0 +1,27 @@
+.slider-container{
+    margin: 2rem auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.slider-container input{
+    cursor: pointer;
+}
+
+.sliderValue{
+    margin: 0.5rem auto;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    background-color: var(--lightGrey);
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 0.5rem;
+}
