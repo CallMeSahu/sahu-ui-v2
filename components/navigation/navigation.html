@@ -30,7 +30,7 @@
                     <a href="../avatar/avatar.html">Avatar</a>
                     <a href="../badge/badge.html">Badge</a>
                     <a href="../button/button.html">Button</a>
-                    <a href="../card/card.html" class="active-page">Card</a>
+                    <a href="../card/card.html">Card</a>
                     <a href="../image/image.html">Image</a>
                     <a href="../input/input.html">Input</a>
                     <a href="../list/list.html">Lists</a>
@@ -72,7 +72,7 @@
                 <div class="nav-container">
                     <ul class="navbar">
                         <div class="navbar-left">
-                            <i class="fa fa-bars hamberg" aria-hidden="true"></i>
+                            <i class="fa fa-bars hamberg-btn" aria-hidden="true"></i>
                             <p class="search">Sahu UI</p>
                         </div>
                         <ul class="navbar-right">
@@ -106,7 +106,7 @@
                 <div class="nav-container">
                     <ul class="navbar nav-fixed">
                         <div class="navbar-left">
-                            <i class="fa fa-bars hamberg" aria-hidden="true"></i>
+                            <i class="fa fa-bars hamberg-btn" aria-hidden="true"></i>
                             <p class="search">Sahu UI</p>
                         </div>
                         <ul class="navbar-right">
@@ -133,8 +133,6 @@
                     </p>
                 </div>
 
-
-
                 <div class="doc-img">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Remove%2520nav-fixed%2520to%2520make%2520navbar%2520scrollable%2520--%253E%250A%253Cul%2520class%253D%2522navbar%2520nav-fixed%2522%253E%250A%2509%253Cdiv%2520class%253D%2522navbar-left%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-bars%2520hamberg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520%250A%2509%2509%253Cp%2520class%253D%2522search%2522%253ESahu%2520UI%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cul%2520class%253D%2522navbar-right%2522%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-home%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253EHome%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-user%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253EAbout%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-cog%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253ESetting%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar-image.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520small%2522%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Ful%253E"
@@ -144,48 +142,72 @@
                 </div>
 
                 <div class="section-main-text">
-                    <h2 class="section-main-text-header">Text Alignment Types</h2>
-                </div>
+                    <h2 class="section-main-text-header">Navbar with Drawer</h2>
+                    <p class="paragraph">Click ≡ to see demo</p>
+                </div> 
 
-                <div class="text-container">
-                    <!-- Text Alignment Types -->
-                    <h3 class="text-left">Text Align Left</h3>
-                    <h3 class="text-center">Text Align Center</h3>
-                    <h3 class="text-right">Text Align Right</h3>
+                <div class="nav-container">
+                    <!-- Navbar with Drawer -->
+                    <ul class="navbar nav-fixed">
+                        <div class="navbar-left">
+                            <i class="fa fa-bars drawer-hamberg-btn" aria-hidden="true"></i>
+                            <p class="search">Sahu UI</p>
+                        </div>
+                        <ul class="navbar-right">
+                            <li>
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                <span>Home</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span>About</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                                <span>Setting</span>
+                            </li>
+                            <li>
+                                <img src="../../images/avatar-image.jpg" alt="" srcset="" class="avatar small">
+                            </li>
+                        </ul>
+                    </ul>
+                    
+                    <div class="drawer-container">
+                        <div class="drawer">
+                            <div class="drawer-title">
+                                <h3>Sahu UI</h3>
+                                <p class="drawer-close">&times;</p>
+                            </div>
+                            <div class="drawer-menu">
+                                <a href="">
+                                    <div class="link"><span>Alert</span></div>
+                                </a>
+                                <a href="">
+                                    <div class="link"><span>Avatar</span></div>
+                                </a>
+                                <a href="">
+                                    <div class="link"><span>Badge</span></div>
+                                </a>
+                                <a href="">
+                                    <div class="link"><span>Card</span></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="doc-image">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Alignment%2520Types%2520--%253E%250A%253Ch3%2520class%253D%2522text-left%2522%253EText%2520Align%2520Left%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522text-center%2522%253EText%2520Align%2520Center%253C%252Fh3%253E%2520%250A%253Ch3%2520class%253D%2522text-right%2522%253EText%2520Align%2520Right%253C%252Fh3%253E"
-                        style="width: 100%; height:255px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Navbar%2520with%2520drawer%2520--%253E%250A%253Cul%2520class%253D%2522navbar%2520nav-fixed%2522%253E%250A%2509%253Cdiv%2520class%253D%2522navbar-left%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-bars%2520drawer-hamberg-btn%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520%250A%2509%2509%253Cp%2520class%253D%2522search%2522%253ESahu%2520UI%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cul%2520class%253D%2522navbar-right%2522%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-home%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253EHome%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-user%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253EAbout%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-cog%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cspan%253ESetting%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Cimg%2520src%253D%2522..%252F..%252Fimages%252Favatar-image.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520small%2522%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Ful%253E%250A%250A%253Cdiv%2520class%253D%2522drawer-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522drawer%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522drawer-title%2522%253E%250A%2509%2509%2509%253Ch3%253ESahu%2520UI%253C%252Fh3%253E%250A%2509%2509%2509%253Cp%2520class%253D%2522drawer-close%2522%253E%2526times%253B%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522drawer-menu%2522%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2522%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522link%2522%253E%253Cspan%253EAlert%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2522%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522link%2522%253E%253Cspan%253EAvatar%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2522%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522link%2522%253E%253Cspan%253EBadge%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%2509%253Ca%2520href%253D%2522%2522%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522link%2522%253E%253Cspan%253ECard%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Add%2520this%2520script%2520at%2520the%2520end%2520of%2520body%2520tag%2520--%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Fsahu-ui.vercel.app%252Fcomponents%252Fnavigation%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520navigation.js%2522%253E%253C%252Fscript%253E%250A"
+                        style="width: 100%; height: 1170px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-
-                <div class="section-main-text">
-                    <h2 class="section-main-text-header">Paragraph Text Types</h2>
-                </div>
-
-                <div class="text-container">
-                    <!-- Paragraph Text Types -->
-                    <p class="paragraph-large">Paragraph Large Text</p>
-                    <p class="paragraph-regular">Paragraph Regular Text</p>
-                    <p class="paragraph-medium">Paragraph Medium Text</p>
-                    <p class="paragraph-small">Paragraph Small Text</p>
-                </div>
-
-                <div class="doc-image">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2814%2C165%2C233%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Paragraph%2520Text%2520Types%2520--%253E%250A%253Cp%2520class%253D%2522paragraph-large%2522%253EParagraph%2520Large%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522paragraph-regular%2522%253EParagraph%2520Regular%2520Text%253C%252Fp%253E%2520%250A%253Cp%2520class%253D%2522paragraph-medium%2522%253EParagraph%2520Medium%2520Text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522paragraph-small%2522%253EParagraph%2520Small%2520Text%253C%252Fp%253E%250A"
-                        style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                
-                  
+               
             </div>           
         </div>
 
     </div>
+    <script src="./navigation.js"></script>
 </body>
 </html>
