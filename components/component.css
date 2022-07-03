@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("../components/avatar/avatar.css");
-@import url("../components/button/button.css");
-@import url("../components/card/card.css");
+@import url("./alert/alert.css");
+@import url("./avatar/avatar.css");
+@import url("./badge/badge.css");
+@import url("./button/button.css");
+@import url("./card/card.css");
+@import url("./grid/grid.css");
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./lists/lists.css");
+@import url("./modal/modal.css");
+@import url("./navigation/navigation.css");
+@import url("./rating/rating.css");
+@import url("./slider/slider.css");
+@import url("./text-utilities/textUtilities.css");
+@import url("./toast/toast.css");
+
 
 :root{
     --main-color: #0ea5e9;
