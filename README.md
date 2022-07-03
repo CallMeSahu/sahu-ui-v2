@@ -1,10 +1,11 @@
 <div align="center">
 
-    <img src="images/favicon.png" height="40" width="40" alt=""/> 
-    
-    # [Sahu UI](https://sahu-ui.vercel.app/)
-    Build **Interactive**, **Customizable** & **Responsive** User Interface with Sahu UI.
+   <a href="https://sahu-ui.vercel.app/">
+        <img src="images/readme-header-logo.png"  alt="" /> 
+   </a>
 
+  Build **Interactive**, **Customizable** & **Responsive** User Interface with Sahu UI.
+  
 </div>
 
 ## **What is Sahu UI?**
