@@ -80,7 +80,7 @@
     border: 0.5px solid var(--success);
 }
 
-.outlined-sucess:hover{
+.outlined-success:hover{
     color: var(--white);
     background-color: var(--success);
 }
